@@ -1,0 +1,298 @@
+body{
+	margin: 10px;
+	font-family: sans-serif, 'Ariel';
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #0645ad;
+	background: none;
+}
+
+/*Left side tab*/
+#mw-panel {
+	font-size: inherit
+	position: relative;
+	top:0;
+	width: 10em;
+	left: 0;
+	padding-left: 0.5em;
+}
+
+.logo {
+	position: relative;
+	right: 2em;
+	width:180px;
+	float: left;
+	margin: 0px;
+}
+.leftTab {
+	margin-top: 20px;
+}
+.leftTab li{
+	margin-top:0px;
+	font-size: 12px;
+	width:100%;
+	list-style-type: none;
+	margin-left:-39px;
+}
+/*end of left side tab*/
+
+/*login tab*/
+.login{
+	float:right;
+	font-size: 11px;
+}
+/*end of login tab*/
+
+
+.leftsideTab {
+	position: relative;
+	right:0em;
+	font-size: 16px;
+	bottom: 55em;
+	float: left;
+	margin-right:0px;
+}
+
+
+.leftsideTab.conatiner-fluid {
+	padding:0px;
+	margin:0px;
+}
+
+.leftsideTab.conatiner-fluid.row {
+	padding:-10px;
+	margin:-10px;
+	width: 250px;
+}
+
+/*Welcome to wikiheader*/
+.MainAllBox {
+	border: 2px solid #000;
+}
+.mainPageHeader {
+	position: absolute;
+	top:9.5em;
+}
+
+.mainPageHeader ul #Main {
+	font-size: 90%;
+	color: #000;
+}
+
+.mainPageHeader ul #MainPage {
+	position: relative;
+	bottom: 6em;
+	right:20em;
+	font-size: 90%;
+}
+
+.mainPageHeader ul{
+	position: relative;
+	float: right;
+	display: inline;
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+.mainPageHeader ul li{
+	display: inline;
+}
+
+
+.mp-head-right ul li {
+	float: right;
+}
+
+.mp-head-left {
+	position: relative;
+	bottom: 6em;
+	right: 29em;
+	float: right;
+	display: block;
+}
+/*end of Welcome to WikiHeader*/
+
+#topLinks {
+	position:relative;
+	bottom:3em;
+	left:1400px;
+	margin:0.4em;
+	 width:22em;
+	 text-align:center
+}
+
+#topLinks ul{
+	padding-right: 50px;
+	margin-right: 50px;
+	min-height: 20px;
+}
+
+#topLinks ul li {
+	padding-top: 5px;
+	padding-right: 50px;
+	margin-right: 50px;
+}
+
+#mp-topbanner {
+	position: relative;
+	left:200px;
+	top:75px;
+	clear:both;
+	box-sizing:border-box;
+	border: 1px solid silver;
+	width:2000px;
+	height:100px;
+	background-color:#f9f9f9;
+	color:#000;
+	white-space:nowrap;
+}
+
+.mp-head-right ul{
+	position:relative;
+	left: 144em;
+	bottom: 6em;
+	font-size: 90%;
+
+}
+
+.mp-head-right ul li{
+	margin-right: 20px;
+}
+
+.search {
+	position: relative;
+  left: 1800px;
+	bottom: 6em;
+  width: 300px;
+}
+
+.MainPageBG {
+	width:55%;
+	border:1px solid #cef2e0;
+	padding:0;
+	background:#f5fffa;
+	vertical-align: top;
+	color: #000;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+#mp-upper {
+	position: relative;
+	left: 14em;
+	top:5.5em;
+	width: 80%;
+	margin-top: 4px;
+	border-top: 4px;
+	border-spacing: 0px;
+}
+
+#mp-tf-left .MainPageBG {
+	width: 55%;
+	border: 1px solid #cef2e0;
+	padding: 0;
+	background: #f5fffa;
+	vertical-align: top;
+	color: #000;
+}
+
+#mp-tfa-h2 {
+	clear: both;
+	margin:0.5em;
+	background: #cef2e0;
+	font-size: inherent;
+	font-size:100%;
+	border: 1px solid #a3bfb1;
+	color: #000;
+	padding:0.2em 04em;
+}
+
+#mp-tfa {
+	padding: 0.1em 0.6em;
+
+}
+#mp-tfa-img {
+	float: left;
+	margin: 0.5em 0.9em 0.4em 0em;
+}
+
+.thumbinner-mp-thumb {
+	background: transparent;
+	border: none;
+	padding: 0;
+	max-width: 102px;
+}
+
+.tfa-recent {
+	text-align: right;
+}
+
+.tfa-footer-hlist-noprint{
+	text-align: right;
+}
+
+#mp-dyk-h2 {
+	clear: both;
+	margin: 0.5em;
+	background: #cef2e0;
+	font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #a3bfb1;
+	color: #000;
+	padding: 0.2em 0.4em;
+}
+
+#mp-dyk {
+	padding: 0.1em 0.6em 0.5em;
+}
+
+#mp-dyk-img {
+	float: right;
+	margin-left: 0.5em;
+}
+
+.thumbcaption {
+	padding: 0.25em 0;
+	word-wrap: break-word;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.dyk-footer-hlist-noprint {
+	margin-top: 0.5em;
+	text-align: right;
+}
+
+#mp-right {
+	width: 45%;
+	border: 1px solid #cedff2;
+	padding: 0;
+	background: #f5faff;
+	vertical-align: top;
+}
+
+#mp-itn-h2 {
+	margin: 0.5em;
+	background: #cedff2;
+	font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #a3b0bf;
+	color: #000;
+	padding:0.2em 0.4em;
+}
+
+#mp-itn {
+	padding: 0.1em 0.6em;
+	float: right;
+}
+
+.mp-itn {
+	float: right;
+	margin-left: 0.5em;
+}
